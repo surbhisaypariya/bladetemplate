@@ -11,10 +11,8 @@
     <!-- Site wrapper -->
     <div class="wrapper">
         @include('include/sidebar')
-        
         @include('include/flash-message')
         @yield('content')
-        
         @include('include/footer')
     </div>
     <!-- ./wrapper -->
